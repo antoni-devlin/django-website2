@@ -1,24 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-    <meta charset="utf-8">
-    <title> Home Page </title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Link A</a></li>
-            <li><a href="#">Link B</a></li>
-            <li><a href="#">Link C</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-        <aside class="sidebar_left">
-        </aside>
-        <main class="main_col">
+{% extends 'base.html' %}
+  {% block content %}
             <article class="post">
                 <div class="post_image_heading">
                     <img src="https://picsum.photos/960/540/?image=1020" alt="A random cover image!">
@@ -47,16 +28,4 @@
                     <p> <a href="#">#Python</a> <a href="#">#Flask</a></p>
                 </div>
             </article>
-        </main>
-        <aside class="sidebar_right">
-        </aside>
-    </div>
-    <footer>
-        <div class="">
-
-        </div>
-    </footer>
-
-</body>
-
-</html>
+  {% endblock %}

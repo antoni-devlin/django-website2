@@ -54,7 +54,7 @@ ROOT_URLCONF = 'djangoWebsite2.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/Users/adevl002/Documents/Stuff/Projects/djangoWebsite2/djangoWebsite2/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
